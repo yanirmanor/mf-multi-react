@@ -31,7 +31,7 @@ This demo showcases how Module Federation can be used to dynamically load compon
 
 ## Prerequisites
 
-- Node.js (version 14 or later recommended)
+- Node.js (version 14 or later recommended) for repack node 16
 - npm or yarn
 
 ## Installation
@@ -39,7 +39,7 @@ This demo showcases how Module Federation can be used to dynamically load compon
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/module-federation-demo.git
+   git clone https://github.com/yanirmanor/mf-multi-react.git
    cd module-federation-demo
    ```
 
@@ -55,14 +55,14 @@ This demo showcases how Module Federation can be used to dynamically load compon
 1. Start Remote Application 1:
 
    ```
-   cd remote1
+   cd remote18
    npm start
    ```
 
 2. Start Remote Application 2:
 
    ```
-   cd remote2
+   cd remote
    npm start
    ```
 
@@ -83,11 +83,11 @@ module-federation-demo/
 │   ├── src/
 │   ├── webpack.config.js
 │   └── package.json
-├── remote1/
+├── remote18/
 │   ├── src/
 │   ├── repack.config.js
 │   └── package.json
-├── remote2/
+├── remote/
 │   ├── src/
 │   ├── repack.config.js
 │   └── package.json
